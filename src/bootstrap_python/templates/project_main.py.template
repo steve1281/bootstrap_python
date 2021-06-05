@@ -1,0 +1,4 @@
+
+class {{PROJECT_MAIN_CLASS}}:
+    def __init__(self):
+        print("Hello World")

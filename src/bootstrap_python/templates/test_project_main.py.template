@@ -1,0 +1,7 @@
+
+from {{PROJECT_NAME}}.{{PROJECT_MAIN}} import {{PROJECT_MAIN_CLASS}}
+
+
+def test_construction():
+    {{PROJECT_MAIN}} = {{PROJECT_MAIN_CLASS}}() 
+    assert {{PROJECT_MAIN}}

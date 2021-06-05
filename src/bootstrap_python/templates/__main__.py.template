@@ -1,0 +1,9 @@
+
+from {{PROJECT_NAME}}.{{PROJECT_MAIN}} import {{PROJECT_MAIN_CLASS}}
+
+
+def main():
+    {{PROJECT_MAIN}} = {{PROJECT_MAIN_CLASS}}()
+
+if __name__ == "__main__":
+    main()

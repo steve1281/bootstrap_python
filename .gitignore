@@ -1,0 +1,10 @@
+/.eggs/
+/src/bootstrap_python.egg-info/
+/virtualenv/
+/.coverage
+/.python-version
+/.idea/
+/.idea/codeStyles
+/shelf/
+/workspace.xml
+/bootstrap_python.iml
