@@ -89,18 +89,18 @@ cd ..
 
 bigmac:Projects steve1281$ bootstrap_python sample_proj sample Sample -t sample_proj 
 2021-06-05 18:44:00,554 - root - INFO   - project_name=sample_proj, project_name_file=sample, project_main_class=Sample, target_directory==sample_proj, dryrun=False, debug=False
-2021-06-05 18:44:00,555 - root - INFO   - Created =sample_proj/src.
-2021-06-05 18:44:00,555 - root - INFO   - Created =sample_proj/src/sample_proj.
-2021-06-05 18:44:00,555 - root - INFO   - Created =sample_proj/src/sample_proj/resources.
-2021-06-05 18:44:00,555 - root - INFO   - Created =sample_proj/test.
-2021-06-05 18:44:00,559 - root - INFO   - Created =sample_proj/README.md.
-2021-06-05 18:44:00,560 - root - INFO   - Created =sample_proj/src/sample_proj/__init__.py.
-2021-06-05 18:44:00,561 - root - INFO   - Created =sample_proj/test/__init__.py.
-2021-06-05 18:44:00,563 - root - INFO   - Created =sample_proj/src/sample_proj/__main__.py.
-2021-06-05 18:44:00,564 - root - INFO   - Created =sample_proj/src/sample_proj/sample.py.
-2021-06-05 18:44:00,566 - root - INFO   - Created =sample_proj/setup.py.
-2021-06-05 18:44:00,567 - root - INFO   - Created =sample_proj/requirements.txt.
-2021-06-05 18:44:00,569 - root - INFO   - Created =sample_proj/test/test_sample.py.
+2021-06-05 18:44:00,555 - root - INFO   - Created sample_proj/src.
+2021-06-05 18:44:00,555 - root - INFO   - Created sample_proj/src/sample_proj.
+2021-06-05 18:44:00,555 - root - INFO   - Created sample_proj/src/sample_proj/resources.
+2021-06-05 18:44:00,555 - root - INFO   - Created sample_proj/test.
+2021-06-05 18:44:00,559 - root - INFO   - Created sample_proj/README.md.
+2021-06-05 18:44:00,560 - root - INFO   - Created sample_proj/src/sample_proj/__init__.py.
+2021-06-05 18:44:00,561 - root - INFO   - Created sample_proj/test/__init__.py.
+2021-06-05 18:44:00,563 - root - INFO   - Created sample_proj/src/sample_proj/__main__.py.
+2021-06-05 18:44:00,564 - root - INFO   - Created sample_proj/src/sample_proj/sample.py.
+2021-06-05 18:44:00,566 - root - INFO   - Created sample_proj/setup.py.
+2021-06-05 18:44:00,567 - root - INFO   - Created sample_proj/requirements.txt.
+2021-06-05 18:44:00,569 - root - INFO   - Created sample_proj/test/test_sample.py.
 
 cd sample_proj
 pyenv local 3.9.1
