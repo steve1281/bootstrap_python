@@ -28,7 +28,7 @@ Sanity check:
 Usage: bootstrap_python [OPTIONS] PROJECT_NAME PROJECT_MAIN_FILE
                         PROJECT_MAIN_CLASS
 
-  Build a skeleton python project. It will be deployed to the current
+  Build a skeleton python project. It will be deployed (by default) to the current
   folder. The project will need a name, a main file, and a main class.
 
 Options:
@@ -36,7 +36,7 @@ Options:
                          them
 
   -v, --debug            Set logging to debug
-  -t, --target-dir TEXT  Targeted directory, assume CWD otherwise.
+  -t, --target-dir TEXT  Targeted directory, assume CWD otherwise. (Will create if needed)
   --help                 Show this message and exit.
 ```
 
