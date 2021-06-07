@@ -6,7 +6,7 @@ So I wrote this.
 
 ## Clone
 
-YMMV, this is for mac:
+On a Mac:
 
 ```
  git clone https://github.com/steve1281/bootstrap_python.git
