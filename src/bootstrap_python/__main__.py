@@ -27,13 +27,13 @@ def set_logging(debug=False):
 @click.option("--dryrun", "-d", is_flag=True, default=False,
               help="Display commands that would be run instead of running them")
 @click.option("--debug", "-v", is_flag=True, default=False, help="Set logging to debug")
-@click.option('-t', '--target-dir', 'target', help='Targeted directory, assume CWD otherwise.', default='.')
+@click.option('-t', '--target-dir', 'target', help='Targeted directory, assume CWD otherwise. (Will create if needed)', default='.')
 @click.argument("project_name")
 @click.argument("project_main_file")
 @click.argument("project_main_class")
 def main(project_main_class, project_main_file, project_name, target, debug, dryrun):
     """
-    Build a skeleton python project. It will be deployed to the current folder.
+    Build a skeleton python project. It will be deployed to the current folder (by default).
     The project will need a name, a main file, and a main class.
     """
     set_logging(debug)
